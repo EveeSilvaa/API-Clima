@@ -1,4 +1,4 @@
-const apiKey = '986c50b7c3050be72a57d2a87238bde9'; // Substitua por sua chave da OpenWeatherMap API
+const apiKey = 'api-key'; // Substitua por sua chave da OpenWeatherMap API
 const apiUrl = 'https://api.openweathermap.org/data/2.5/weather';
 
 document.getElementById('location-form').addEventListener('submit', async (e) => {
