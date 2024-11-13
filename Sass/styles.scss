@@ -1,58 +1,58 @@
-$primary-color: #4CAF50;
-$text-color: #333;
+// $primary-color: #4CAF50;
+// $text-color: #333;
 
-body {
-  font-family: Arial, sans-serif;
-  background: #8aaece;
-  margin: 0;
-  padding: 0;
-}
+// body {
+//   font-family: Arial, sans-serif;
+//   background: #8aaece;
+//   margin: 0;
+//   padding: 0;
+// }
 
-.weather-app {
-  max-width: 400px;
-  margin: 50px auto;
-  text-align: center;
-  background: rgb(255, 255, 255);
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+// .weather-app {
+//   max-width: 400px;
+//   margin: 50px auto;
+//   text-align: center;
+//   background: rgb(255, 255, 255);
+//   padding: 20px;
+//   border-radius: 8px;
+//   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
-  h1 {
-    color: $primary-color;
-  }
+//   h1 {
+//     color: $primary-color;
+//   }
 
-  form {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+//   form {
+//     display: flex;
+//     justify-content: center;
+//     margin-bottom: 20px;
 
-    input {
-      padding: 10px;
-      font-size: 16px;
-      border: 1px solid #ccc;
-      border-radius: 4px 0 0 4px;
-      outline: none;
-      flex: 1;
-    }
+//     input {
+//       padding: 10px;
+//       font-size: 16px;
+//       border: 1px solid #ccc;
+//       border-radius: 4px 0 0 4px;
+//       outline: none;
+//       flex: 1;
+//     }
 
-    button {
-      background: $primary-color;
-      color: white;
-      border: none;
-      padding: 10px 20px;
-      font-size: 16px;
-      border-radius: 0 4px 4px 0;
-      cursor: pointer;
+//     button {
+//       background: $primary-color;
+//       color: white;
+//       border: none;
+//       padding: 10px 20px;
+//       font-size: 16px;
+//       border-radius: 0 4px 4px 0;
+//       cursor: pointer;
 
-      &:hover {
-        background: darken($primary-color, 10%);
-      }
-    }
-  }
+//       &:hover {
+//         background: darken($primary-color, 10%);
+//       }
+//     }
+//   }
 
-  #weather-result {
-    margin-top: 20px;
-    color: $text-color;
-    font-size: 18px;
-  }
-}
+//   #weather-result {
+//     margin-top: 20px;
+//     color: $text-color;
+//     font-size: 18px;
+//   }
+// }
